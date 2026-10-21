@@ -1,3 +1,33 @@
+h1 {
+   max-width: 780px;
+
+   span {
+    color: #1F4ED8;
+}
+
+    @media (min-width: 470px) {
+        /* clamp: first is min-width, next is preferred width and last is max-width */
+        font-size: clamp(2rem, 7vw, 3.5rem);
+        
+    }
+}
+
+article > p {
+    max-width: 450px;
+}
+
+.not-list {
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    @media (min-width: 350px) {
+        grid-template-columns: 150px 150px;
+    }
+}
+
 footer {
 
     border-top: 1px solid black;

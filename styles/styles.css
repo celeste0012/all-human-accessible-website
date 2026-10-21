@@ -12,20 +12,8 @@ h1 {
     }
 }
 
-article > p {
+hgroup > p {
     max-width: 450px;
-}
-
-.not-list {
-    list-style: none;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-
-    @media (min-width: 350px) {
-        grid-template-columns: 150px 150px;
-    }
 }
 
 footer {

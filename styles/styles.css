@@ -1,0 +1,19 @@
+footer {
+
+    border-top: 1px solid black;
+
+    @media (min-width: 780px) {
+        display: flex;
+        justify-content: space-around;
+
+        section {
+            margin-right: 4rem;
+        }
+
+    }
+
+    .footer_p {
+        
+        max-width: 460px;
+    }
+}

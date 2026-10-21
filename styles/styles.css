@@ -16,6 +16,24 @@ hgroup > p {
     max-width: 450px;
 }
 
+#s1 {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px 1fr;
+
+    @media (min-width: 350px) {
+        grid-template-columns: 150px 150px;
+    }
+
+    #varianten {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+}
+
 footer {
 
     border-top: 1px solid black;

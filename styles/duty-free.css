@@ -1,0 +1,16 @@
+hgroup > p {
+    font-size: large;
+}
+
+p > span {
+    font-weight: bold;
+    font-size: 17px;
+
+    span {
+        font-style: italic;
+    }
+}
+
+li {
+    margin-bottom: 1rem;
+}

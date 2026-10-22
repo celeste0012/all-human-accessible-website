@@ -16,6 +16,11 @@ hgroup > p {
     max-width: 450px;
 }
 
+.illustrations {
+    width: clamp(300px, 7vw, 600px);
+   
+}
+
 #s1 {
     display: grid;
 

@@ -17,8 +17,7 @@ hgroup > p {
 }
 
 .illustrations {
-    width: clamp(300px, 7vw, 600px);
-   
+    width: clamp(200px, 40vw + 1rem, 600px);
 }
 
 #s1 {

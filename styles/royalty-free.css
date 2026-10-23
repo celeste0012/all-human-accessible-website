@@ -1,4 +1,4 @@
-hgroup > p {
+.cco-universal {
     font-size: large;
 }
 
@@ -13,4 +13,15 @@ p > span {
 
 li {
     margin-bottom: 1rem;
+    max-width: 660px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    max-width: 660px;
 }

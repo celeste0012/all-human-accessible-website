@@ -21,3 +21,78 @@
         grid-row-end: 3;
     }
 }
+
+search {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 28px;
+    background: #f6f6f6;
+    transition: 0.25s;
+
+    .search-input {
+    font-size: 16px;
+    color: #333;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 180px;
+    }
+
+    .search-input::placeholder,
+    .search-icon {
+    color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+/* wanneer iets in de search gefocussed word, gebeurt dit */
+search:focus-within {
+   box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
+}
+
+.icons {
+    list-style-type: "";
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    
+    @media (min-width: 360px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (min-width: 480px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    @media (min-width: 600px) {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    @media (min-width: 720px) {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    @media (min-width: 840px) {
+        grid-template-columns: repeat(7, 1fr);
+    }
+
+    @media (min-width: 960px) {
+        grid-template-columns: repeat(8, 1fr);
+    }
+
+    @media (min-width: 1080px) {
+        grid-template-columns: repeat(9, 1fr);
+    }
+
+    @media (min-width: 1200px) {
+        grid-template-columns: repeat(10, 1fr);
+    }
+
+    li {
+        border-radius: 10px;
+        border: black 1px solid;
+    }
+}

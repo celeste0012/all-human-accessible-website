@@ -33,7 +33,7 @@ search {
 
     .search-input {
     font-size: 16px;
-    color: #333;
+    color: #000000;
     margin-left: 14px;
     outline: none;
     border: none;
@@ -43,7 +43,7 @@ search {
 
     .search-input::placeholder,
     .search-icon {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.75);
     }
 }
 

@@ -1,4 +1,25 @@
+.easy-use {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    padding-bottom: 10px;
+    padding-left: 3px;
 
+    @media (min-width: 580px) {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+         
+        section {
+            max-width: 320px;
+        }
+
+    }
+
+    max-width: 1250px;
+    border: #000000 2px dashed;
+   
+}
 
 #s1 {
     display: grid;
@@ -58,8 +79,11 @@ search:focus-within {
 }
 
 .icons {
+    padding-top: 20px;
+    border-top: 1px solid black;
     list-style-type: "";
-    padding: 0;
+    padding-left: 0;
+    padding-bottom: 0;
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr;

@@ -44,39 +44,41 @@
             <p>Vector formaat</p>
         </section>
 
-        <form>
-            <search>
-                <span class="search-icon material-symbols-outlined"> search</span>
-                <input class="search-input" type="search" placeholder="Zoek naar een icoon...">
-            </search>
-        </form>
+        <div class="come_with">
+            <form>
+                <search>
+                    <span class="search-icon material-symbols-outlined"> search</span>
+                    <input class="search-input" type="search" placeholder="Zoek naar een icoon...">
+                </search>
+            </form>
 
-        <p>Kies een variant</p>
-        <div class="radio">
-            <div>
-                <input type="radio" name="variant" value="regular" id="variant_regular" checked>
-                <label for="variant_regular">Regular</label>
+            <p>Kies een variant</p>
+            <div class="radio">
+                <div>
+                    <input type="radio" name="variant" value="regular" id="variant_regular" checked>
+                    <label for="variant_regular">Regular</label>
+                </div>
+                <div>
+                    <input type="radio" name="variant" value="line" id="variant_line">
+                    <label for="variant_line">Line</label>
+                </div>
+                <div>
+                    <input type="radio" name="variant" value="fill" id="variant_fill">
+                    <label for="variant_fill">Fill</label>
+                </div>
+                <div>
+                    <input type="radio" name="variant" value="diapositive" id="variant_diapositive">
+                    <label for="variant_diapositive">Diapositive</label>
+                </div>
             </div>
-            <div>
-                <input type="radio" name="variant" value="line" id="variant_line">
-                <label for="variant_line">Line</label>
-            </div>
-            <div>
-                <input type="radio" name="variant" value="fill" id="variant_fill">
-                <label for="variant_fill">Fill</label>
-            </div>
-            <div>
-                <input type="radio" name="variant" value="diapositive" id="variant_diapositive">
-                <label for="variant_diapositive">Diapositive</label>
-            </div>
+
+            <p class="de_filter-filter">
+                <select name="filter">
+                    <option value="filter" selected>Filter</option>
+                    <option value="afval">Afval</option>
+                </select>
+            </p> 
         </div>
-
-        <p>
-            <select name="filter">
-                <option value="filter" selected>Filter</option>
-                <option value="afval">Afval</option>
-            </select>
-        </p> 
 
         <ul class="icons icons_regular">
             <li class="svg"><img src="https://raw.githubusercontent.com/OpenGemeenten/Iconenset/df35e33dbe51d88ac358f549701198103ac033d8/Svg/Regular/Aanmelden.svg" alt=""></li>

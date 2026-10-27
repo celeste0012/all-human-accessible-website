@@ -10,9 +10,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
          
-        section {
-            max-width: 320px;
-        }
+        
 
     }
 

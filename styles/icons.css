@@ -73,7 +73,53 @@ search:focus-within {
    box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
 }
 
+html:has(  [value="regular"]:checked) {
+    .icons_line {
+        display: none;
+    }
+    .icons_fill {
+        display: none;
+    }
+    .icons_diapositive {
+        display: none;
+    }
+}
 
+html:has(  [value="line"]:checked) {
+    .icons_regular {
+        display: none;
+    }
+    .icons_fill {
+        display: none;
+    }
+    .icons_diapositive {
+        display: none;
+    }
+}
+
+html:has(  [value="fill"]:checked) {
+    .icons_regular {
+        display: none;
+    }
+    .icons_line {
+        display: none;
+    }
+    .icons_diapositive {
+        display: none;
+    }
+}
+
+html:has(  [value="diapositive"]:checked) {
+    .icons_regular {
+        display: none;
+    }
+    .icons_line {
+        display: none;
+    }
+    .icons_fill {
+        display: none;
+    }
+}
 
 .icons {
     padding-top: 20px;

@@ -80,6 +80,7 @@ search:focus-within {
     flex-wrap: wrap;
 }
 
+/* radio-buttons!! */
 html:has(  [value="regular"]:checked) .icons:not(.icons_regular) {
     display: none;
 }
@@ -93,6 +94,11 @@ html:has(  [value="fill"]:checked) .icons:not(.icons_fill) {
 }
 
 html:has(  [value="diapositive"]:checked) .icons:not(.icons_diapositive) {
+    display: none;
+}
+
+/* filter-options!! */
+html:has(  [value="afval"]:checked) .svg:not(.afval) {
     display: none;
 }
 

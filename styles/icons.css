@@ -73,52 +73,20 @@ search:focus-within {
    box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
 }
 
-html:has(  [value="regular"]:checked) {
-    .icons_line {
-        display: none;
-    }
-    .icons_fill {
-        display: none;
-    }
-    .icons_diapositive {
-        display: none;
-    }
+html:has(  [value="regular"]:checked) .icons:not(.icons_regular) {
+    display: none;
 }
 
-html:has(  [value="line"]:checked) {
-    .icons_regular {
-        display: none;
-    }
-    .icons_fill {
-        display: none;
-    }
-    .icons_diapositive {
-        display: none;
-    }
+html:has(  [value="line"]:checked) .icons:not(.icons_line) {
+    display: none;
 }
 
-html:has(  [value="fill"]:checked) {
-    .icons_regular {
-        display: none;
-    }
-    .icons_line {
-        display: none;
-    }
-    .icons_diapositive {
-        display: none;
-    }
+html:has(  [value="fill"]:checked) .icons:not(.icons_fill) {
+    display: none;
 }
 
-html:has(  [value="diapositive"]:checked) {
-    .icons_regular {
-        display: none;
-    }
-    .icons_line {
-        display: none;
-    }
-    .icons_fill {
-        display: none;
-    }
+html:has(  [value="diapositive"]:checked) .icons:not(.icons_diapositive) {
+    display: none;
 }
 
 .icons {

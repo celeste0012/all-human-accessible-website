@@ -109,8 +109,18 @@ En de diapositive iconen hebben wat code zodat ze ook echt diapositive zijn.
 ## WCAG audit
 Ik heb minstens drie problemen opgelost:
 1. skip links toegevoegd
+<img width="238" height="21" alt="afbeelding" src="https://github.com/user-attachments/assets/20d375b6-9b19-4999-acae-810e78c7bf72" />
+
 2. kleur contrast beter gemaakt
+ <img width="178" height="86" alt="afbeelding" src="https://github.com/user-attachments/assets/4d50e647-a0a9-4272-a634-6d385a9af633" />
+ <img width="154" height="48" alt="afbeelding" src="https://github.com/user-attachments/assets/3e497970-02b9-4fcb-8852-5c9c2bfe0cf5" />
+ <img width="288" height="54" alt="afbeelding" src="https://github.com/user-attachments/assets/0c3b28fa-3c88-4b58-b790-1b95d478b05e" />
+ <img width="254" height="56" alt="afbeelding" src="https://github.com/user-attachments/assets/75ba787b-5c61-44bf-b7ac-f23f75a9e4d4" />
+
 3. alt's ingevuld
+<img width="256" height="402" alt="afbeelding" src="https://github.com/user-attachments/assets/6461ed6c-902d-4d58-992c-e4d3b5ce19fb" />
+<img width="238" height="428" alt="afbeelding" src="https://github.com/user-attachments/assets/c6c0454c-ac7e-4534-bbe0-2d52c3d5caac" />
+
 
 ## Bronnen
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/clamp

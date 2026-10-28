@@ -106,6 +106,12 @@ De radio buttons en de filter hebben een css om ervoor te zorgen dat ze werken.
 De iconen hebben @media waarin een veel kortere code in zit dan voorheen waardoor het veel overzichtelijker is.
 En de diapositive iconen hebben wat code zodat ze ook echt diapositive zijn.
 
+## WCAG audit
+Ik heb minstens drie problemen opgelost:
+1. skip links toegevoegd
+2. kleur contrast beter gemaakt
+3. alt's ingevuld
+
 ## Bronnen
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/clamp
 

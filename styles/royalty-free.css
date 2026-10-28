@@ -1,3 +1,10 @@
+header > a {
+    opacity: 0;
+    &:focus {
+        opacity: 1;
+    }
+}
+
 .cco-universal {
     font-size: large;
 }

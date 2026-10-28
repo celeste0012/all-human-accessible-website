@@ -1,3 +1,10 @@
+header > a {
+    opacity: 0;
+    &:focus {
+        opacity: 1;
+    }
+}
+
 .easy-use {
     display: grid;
     column-gap: 20px;

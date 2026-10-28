@@ -28,7 +28,8 @@ https://celeste0012.github.io/all-human-accessible-website/
 
 ### HTML
 In de main zit een variant selector, deze heb ik zo gemaakt:
-'''HTML
+```html
+
 <p>Kies een variant</p>
             <div class="radio">
                 <div>
@@ -48,9 +49,9 @@ In de main zit een variant selector, deze heb ik zo gemaakt:
                     <label for="variant_diapositive">Diapositive</label>
                 </div>
             </div>
-'''
+```
 Ook zitten alle soorten iconen in losse ul's :
-''' HTML
+```html
 <ul class="icons icons_regular">
             <li class="svg"><img src="https://raw.githubusercontent.com/OpenGemeenten/Iconenset/df35e33dbe51d88ac358f549701198103ac033d8/Svg/Regular/Aanmelden.svg" alt=""></li>
             <li class="svg"><img src="https://raw.githubusercontent.com/OpenGemeenten/Iconenset/df35e33dbe51d88ac358f549701198103ac033d8/Svg/Regular/Actueel.svg" alt=""></li>
@@ -98,7 +99,7 @@ Ook zitten alle soorten iconen in losse ul's :
             <li class="svg afval"><img src="https://raw.githubusercontent.com/OpenGemeenten/Iconenset/fa603235cc5faf9faaf280a0f7736859b509a581/Svg/Regular%20diapositive/AfvalPMD.svg" alt=""></li>
             <li class="svg afval"><img src="https://raw.githubusercontent.com/OpenGemeenten/Iconenset/fa603235cc5faf9faaf280a0f7736859b509a581/Svg/Regular%20diapositive/AfvalScheiden.svg" alt=""></li>
             <li class="svg afval"><img src="https://raw.githubusercontent.com/OpenGemeenten/Iconenset/fa603235cc5faf9faaf280a0f7736859b509a581/Svg/Regular%20diapositive/AfvalbakAfvalzak.svg" alt=""></li>
-'''
+```
 
 ### CSS
 De radio buttons en de filter hebben een css om ervoor te zorgen dat ze werken.
